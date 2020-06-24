@@ -1,0 +1,12 @@
+<nav class="navbar navbar-light bg-light shadow">
+  <span class="navbar-brand font-weight-bold">
+    <i class="fas fa-check-circle"></i>WhatTodo
+  </span>
+  <button class="btn font-weight-bold" *ngIf="user" (click)="logout()"><i class="fas fa-sign-out-alt"></i> Log Out</button>
+</nav>
+
+<div class="container">
+  <h2 class="font-weight-bold">Tasks</h2>
+  <app-todo></app-todo>
+  <app-todo-list></app-todo-list>
+</div>

@@ -1,0 +1,6 @@
+<form #f="ngForm">
+  <div class="input-group">
+    <input [(ngModel)]="myTask" type="text" name="myTask" class="form-control" placeholder="Enter Task">
+    <button class="btn btn-dark" [disabled]="!f.valid" (click)="saveTask()"><i class="fas fa-plus"></i></button>
+  </div>
+</form>

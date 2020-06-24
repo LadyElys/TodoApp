@@ -1,0 +1,24 @@
+.container {
+  width: 35em;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+h1 {
+  margin-bottom: 7%;
+}
+
+#butts {
+  margin-top: 10%;
+  margin-bottom: -2%;
+}
+
+h1:hover {
+  text-decoration: line-through;
+}
+
+.fa-check-circle {
+  color: #3CB371;
+}

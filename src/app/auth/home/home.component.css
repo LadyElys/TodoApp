@@ -1,0 +1,16 @@
+.container {
+  height: fit-content;
+  width: 50%;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+.fa-check-circle {
+  color: #3CB371;
+}

@@ -1,0 +1,38 @@
+.container {
+  width: 30em;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: white;
+}
+
+h1 {
+  margin-bottom: 10%;
+}
+
+h1:hover {
+  text-decoration: line-through;
+}
+
+#register {
+  background-color: lightgrey;
+}
+
+#butts {
+  margin-top: 8%;
+  margin-bottom: -9%;
+}
+
+.CreateLink {
+  color: #4C4CFF;
+  text-decoration: underline;
+}
+
+.CreateLink:hover {
+  color: #4C4CFF;
+  text-decoration: underline;
+}
+
+.fa-check-circle {
+  color: #3CB371;
+}

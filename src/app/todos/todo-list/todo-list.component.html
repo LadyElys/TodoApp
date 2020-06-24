@@ -1,0 +1,10 @@
+<table class="table table-borderless">
+  <tr *ngFor="let task of tasks | async">
+    <td id="check"><input id="checkbox" type="checkbox"></td>
+    <td id="task" class="font-weight-bold">{{task.description}}</td>
+    <td id="butts">
+      <button class="btn btn-primary mr-2" (click)="edit(task)"><i class="fas fa-pen"></i></button>
+      <button class="btn btn-danger" (click)="deleteTask(task)"><i class="fas fa-times"></i></button>
+    </td>
+  </tr>
+</table>
