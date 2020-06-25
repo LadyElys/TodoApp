@@ -1,3 +1,10 @@
+<form #f="ngForm" *ngIf="editMode" class="mb-3">
+  <div class="input-group">
+    <input [(ngModel)]="myTask" type="text" name="myTask" class="form-control">
+    <button class="btn btn-dark" [disabled]="!f.valid" (click)="saveTask()"><i class="fas fa-plus"></i></button>
+  </div>
+</form>
+
 <ul class="list-group">
   <li class="list-group-item font-weight-bold" *ngFor="let task of tasks | async">
     <span class="mr-5"><input id="checkbox" type="checkbox"></span>
