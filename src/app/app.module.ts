@@ -15,6 +15,7 @@ import { HomeComponent } from './auth/home/home.component';
 import { TodoComponent } from './todos/todo/todo.component';
 import { TodoListComponent } from './todos/todo-list/todo-list.component';
 import { TodoService } from './todos/todo.service';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { TodoService } from './todos/todo.service';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     AngularFirestoreModule,
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
+    NgbModule
   ],
   providers: [TodoService],
   bootstrap: [AppComponent]
